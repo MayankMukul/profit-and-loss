@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profit And Loss</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="main">
@@ -11,14 +12,17 @@
             <div class="title">
                 <h2>Calculate your Profit and Loss</h2>
             </div>
-            <label for="initial-price">Enter Initial Price</label><br>
-            <input type="number" id="initial-price" placeholder="Enter Initial Price Here.... "><br>
+            <label for="initial-price">Enter Initial Price of stocks : </label><br>
+            <input type="number" id="initial-price" placeholder="Add Initial Price Here.... "><br>
             <label for="stocks">Enter stocks :</label><br>
-            <input type="number" id="stocks" placeholder="Enter stocks owned here...."><br>
-            <label for="current-price">Enter Current Price of stocks</label><br>
-            <input type="number" id="current-price" placeholder="Enter Current Price of the stocks here...."><br>
+            <input type="number" id="stocks" placeholder="Add stocks owned here...."><br>
+            <label for="current-price">Enter Current Price of stocks : </label><br>
+            <input type="number" id="current-price" placeholder="Add Current Price here...."><br>
             <button id="btn">Calculate</button>
+            <div class="output"></div>
         </div>
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
