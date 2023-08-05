@@ -3,7 +3,91 @@ body {
     padding: 0;
 }
 
-.container {
+.main-title {
     margin: auto;
+    width: 80%;
+    padding: 2rem;
+    background-color: yellow;
+    border-bottom-left-radius: 3rem;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 3rem auto;
+    text-align: center;
+    padding: rem;
+    width: 50%;
+    border: solid 1px;
+    border-radius: 2rem;
+}
+
+.title {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 1rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+label {
+    display: block;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+input {
+    margin: rem;
+    padding: .5rem;
+    font-size: 15px;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    margin: 1rem auto ;
+    padding: .5rem;
+    border-radius: 1rem;
+
+}
+
+.output {
+    margin: 1rem;
     
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 0;
+    text-align: center;
+    border-top-right-radius: 3rem;
+    width: 80%;
+    background-color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width : 480px) {
+    .container{
+        width: 100%;
+        margin: 2rem ;
+    }
+    .main-title {
+        width: 100%;
+    }
+    .footer{
+        margin: 0;
+        width: 100%;
+    }
 }
