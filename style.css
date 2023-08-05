@@ -51,8 +51,9 @@ button {
     cursor: pointer;
     margin: 1rem auto ;
     padding: .5rem;
-    border-radius: 1rem;
-
+    border-radius: .5rem;
+    background-color: black;
+    color: white;
 }
 
 .output {
