@@ -1,28 +1,36 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .main-title {
-    margin: auto;
+    margin: 0 auto 1rem;
     width: 80%;
     padding: 2rem;
     background-color: yellow;
     border-bottom-left-radius: 3rem;
+    box-sizing: border-box;
 }
 
-.main {
+h1{
     margin: 0;
-    padding: 0;
 }
+
+
 
 .container {
-    margin: 3rem auto;
+    margin:  auto;
     text-align: center;
-    padding: rem;
+    background-color: rgb(254, 255, 227);
     width: 50%;
-    border: solid 1px;
+    /* border:  1px; */
     border-radius: 2rem;
+    box-sizing: border-box;
 }
 
 .title {
@@ -41,9 +49,10 @@ label {
 }
 
 input {
-    margin: rem;
-    padding: .5rem;
+    padding: .4rem;
     font-size: 15px;
+    width: 40%;
+    max-width: 150px;
 }
 
 button {
@@ -64,14 +73,15 @@ button {
 }
 
 .footer {
-    margin: auto;
+    margin: 1rem auto 0;
     text-align: center;
     padding: 2rem;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     text-align: center;
     border-top-right-radius: 3rem;
     width: 80%;
     background-color: yellow;
+    box-sizing: border-box;
 }
 
 a {
@@ -79,16 +89,15 @@ a {
     color: black;
 }
 
-@media screen and (max-width : 480px) {
-    .container{
-        width: 100%;
-        margin: 2rem ;
-    }
+@media screen and (max-width : 500px) {
     .main-title {
-        width: 100%;
+        width: 100%;    
     }
+     .container{
+        width: 100%; 
+    }
+   
     .footer{
-        margin: 0;
         width: 100%;
     }
 }

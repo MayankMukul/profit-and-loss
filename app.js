@@ -7,13 +7,13 @@ var message = document.querySelector(".output");
 function calculateProfit(costPrice,sellingPrice,qty){
     var profit = (sellingPrice - costPrice)*qty ;
     var profitPercent = ((profit/costPrice)*100).toFixed(2);
-    message.innerHTML=`<span style="color:green" > Profit = ${profit} Profit % = ${profitPercent} `;
+    message.innerHTML=`<span style="color:green" > Profit = ${profit} & Profit % = ${profitPercent} `;
 }
 
 function calculateLoss(costPrice,sellingPrice,qty){
     var loss= (costPrice - sellingPrice)*qty;
     var lossPercent = ((loss/costPrice)*100).toFixed(2);
-    message.innerHTML=`<span style=" color:red" > Loss = ${loss} Loss % = ${lossPercent} `;
+    message.innerHTML=`<span style=" color:red" > Loss = ${loss} & Loss % = ${lossPercent} `;
 }
 
 function equal(){
